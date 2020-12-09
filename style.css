@@ -1,0 +1,64 @@
+body {
+     background-color: #E8E8E8; 
+     color: rgb(40,40,40);
+     font-size: 17px; 
+     font-family: 'Castoro', serif;
+     }
+
+
+h1, h2{color: rgb(119 23 23);
+    font-family: 'Castoro', serif;;
+    font-weight: 100;
+    font-size: 18px;}
+
+
+#logo {
+	width: 100px;
+	border-radius: 30px;
+	margin: 15px auto;
+	box-shadow: 5px 5px 3px black;
+	border: 5px solid black;
+}
+
+
+p {
+	text-justify: justify;
+}
+
+
+@media (max-width: 500px) {.container {
+	width: 400px; }
+}	
+
+/*custom design with class */ 
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: #A3D2CA;
+	padding: 20px;
+	box-shadow: 5px 15px 25px rgba (0,0,0,0.3);
+	border-radius: 17px;
+	margin: 10px 0px;
+	text-align: center;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px
+}
+
+.list-inline i {
+	font-size: 27px;
+	color: rgb(188,77,44);
+}
+
+
